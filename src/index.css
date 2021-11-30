@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+@font-face {
+    font-family: "Monument Extended";
+    src: url("./assets/fonts/MonumentExtended-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: "Monument Extended";
+    src: url("./assets/fonts/MonumentExtended-Ultrabold.otf") format("opentype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+:root {
+    --text-font-family: 'Poppins', sans-serif;
+    --text-font-weight: 400;
+
+    --font-family: 'Monument Extended', sans-serif;    
+
+    --color-dark-bg: #fff;
+    --color-dark-body-bg: #0F0D0D;
+
+    --color-text: #fff;
 }

@@ -1,0 +1,29 @@
+.climeight__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 2.5rem;
+    
+    color: #000;
+}
+
+.climeight__navigation .climeight__navigation-bar {
+    flex: 1 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.climeight__navigation .climeight__navigation-bar .climeight__navigation-logo {
+    width: 208px;
+    height: 57px;
+}
+
+.climeight__navigation .climeight__navigation-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    gap: 0.5rem;
+}
