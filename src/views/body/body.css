@@ -5,7 +5,7 @@
     background: var(--color-dark-body-bg);
     border-radius: 30px;
 
-    padding: 7rem 4rem;
+    padding: 7rem 5rem;
 }
 
 .climeight__body-content {
@@ -16,7 +16,15 @@
     flex-direction: column;
 }
 
-.climeight__body-content p {
+.climeight__body-content .climeight__body-title-container {
+    width: 40rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.climeight__body-content .climeight__body-title-container .climeight__body-title {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 48px;
@@ -25,4 +33,32 @@
     background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 72.86%, rgba(255, 255, 255, 0) 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.climeight__body-content .climeight__body-title-container .climeight__body-title-description {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 400;
+
+    background: radial-gradient(79.7% 112257.1% at 13.4% 100%, rgba(190, 247, 255, 0.62) 0%, rgba(145, 156, 255, 0.62) 30.73%, rgba(243, 166, 255, 0.62) 52.6%, rgba(255, 71, 204, 0.62) 76.56%, rgba(255, 33, 46, 0.62) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.climeight__body .climeight__body-content .climeight__body-content-text {
+    font-family: var(--text-font-family);
+    font-weight: normal;
+    font-size: 20px;
+    
+    width: 35rem;
+}
+
+.climeight__body .climeight__body-content .climeight__input-content {
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
