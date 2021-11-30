@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Navigation, Body } from './views';
+import { Navigation, Body, Footer } from './views';
 
 // stylesheets
 import './App.css'
@@ -10,6 +10,7 @@ const App = () => {
         <div className="App">
             <Navigation />
             <Body />
+            <Footer />
         </div>
     )
 }

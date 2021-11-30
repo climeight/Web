@@ -1,0 +1,29 @@
+.climeight__brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.climeight__brands div:not(:first-child){
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.climeight__brands div:first-child{
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+    margin-right: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
