@@ -3,3 +3,5 @@
  * All rights reserved.
  * Author: d5chahannam
  */
+
+export { default as Input } from './input/Input';

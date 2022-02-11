@@ -8,10 +8,13 @@ import React from 'react';
 
 // stylesheets
 import './App.css'
+import { Input } from './components';
 
 const App = () => {
     return(
-      <div></div>
+      <div>
+        <Input placeholder="Deine E-Mail Adresse:" />
+      </div>
     )
 }
 
