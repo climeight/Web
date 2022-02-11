@@ -15,5 +15,7 @@ body {
   margin: 0;
   padding: 0;
 
+  background: var(--climeight-background-light);
+
   -webkit-text-size-adjust: none;
 }
