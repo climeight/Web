@@ -1,17 +1,17 @@
-import React from 'react';
+/*
+ * Copyright (c) 2022 climeight.de
+ * All rights reserved.
+ * Author: d5chahannam
+ */
 
-import { Navigation, Body, Footer } from './views';
+import React from 'react';
 
 // stylesheets
 import './App.css'
 
 const App = () => {
     return(
-        <div className="App">
-            <Navigation />
-            <Body />
-            <Footer />
-        </div>
+      <div></div>
     )
 }
 

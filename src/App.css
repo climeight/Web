@@ -1,19 +1,5 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: var(--text-font-family);
-    font-weight: var(--text-font-weight);
-
-    background: var(--color-bg);
-    color: var(--color-text);
-}
-
-a {
-    color: unset;
-    text-decoration: none;
-}
+/*
+ * Copyright (c) 2022 climeight.de
+ * All rights reserved.
+ * Author: d5chahannam
+ */

@@ -1,27 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
-
-@font-face {
-    font-family: "Monument Extended";
-    src: url("./assets/fonts/MonumentExtended-Regular.otf") format("opentype");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Monument Extended";
-    src: url("./assets/fonts/MonumentExtended-Ultrabold.otf") format("opentype");
-    font-weight: 800;
-    font-style: normal;
-}
-
+/*
+ * Copyright (c) 2022 climeight.de
+ * All rights reserved.
+ * Author: d5chahannam
+ */
+ 
 :root {
-    --text-font-family: 'Poppins', sans-serif;
-    --text-font-weight: 400;
 
-    --font-family: 'Monument Extended', sans-serif;    
-
-    --color-dark-bg: #fff;
-    --color-dark-body-bg: #0F0D0D;
-
-    --color-text: #fff;
 }

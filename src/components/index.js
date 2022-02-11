@@ -1,3 +1,5 @@
-export { default as Button } from './button/Button';
-export { default as Input } from './input/Input';
-export { default as Brands } from './brands/Brands';
+/*
+ * Copyright (c) 2022 climeight.de
+ * All rights reserved.
+ * Author: d5chahannam
+ */

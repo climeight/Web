@@ -1,3 +1,5 @@
-export { default as Navigation } from './navigation/Navigation';
-export { default as Body } from './body/Body';
-export { default as Footer } from './footer/Footer';
+/*
+ * Copyright (c) 2022 climeight.de
+ * All rights reserved.
+ * Author: d5chahannam
+ */
