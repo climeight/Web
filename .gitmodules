@@ -1,0 +1,3 @@
+[submodule "src/assets/climeight-assets"]
+	path = src/assets/climeight-assets
+	url = https://github.com/climeight/climeight-assets.git
