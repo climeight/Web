@@ -1,3 +1,6 @@
 [submodule "src/assets/climeight-assets"]
 	path = src/assets/climeight-assets
 	url = https://github.com/climeight/climeight-assets.git
+[submodule "src/assets/climeight-fonts"]
+	path = src/assets/climeight-fonts
+	url = https://github.com/climeight/climeight-fonts
