@@ -2,11 +2,17 @@ import React from 'react'
 import { VendorStoreHolderComponent, InputComponent, IconButtonComponent } from '../../components'
 import './css/HomeSectionStyle.css'
 
+import ImageMockupMainPage from '../../assets/mockups/mockup_main_page.png';
+import ImageEffectSmoke from '../../assets/effects/effect_smoke.png';
+
 const HomeSection = () => {
   return (
     <div className="climeight__home-section">
       <div className="climeight__container climeight__home-section__container">
         <div className="climeight__home-section__title">
+          <img className="climeight__home-section__mockup" src={ImageMockupMainPage} alt="" />
+          <img className="climeight__home-section__mockup-smoke" src={ImageEffectSmoke} alt="" />
+
           <div className="climeight__home-section__upper-title">
             <p>GPS</p>
             <p>KLIMA GERETTET</p>
@@ -26,6 +32,7 @@ const HomeSection = () => {
           <div className="climeight__home-section__vendor-store-holder">
             <VendorStoreHolderComponent />
           </div>
+
         </div>
 
       </div>

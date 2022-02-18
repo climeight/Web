@@ -12,6 +12,22 @@
   z-index: 20;
 }
 
+.climeight__home-section .climeight__home-section__mockup {
+  position: absolute;
+  right: 5%;
+  width: 35%;
+  top: -22%;
+}
+
+.climeight__home-section .climeight__home-section__mockup-smoke {
+  position: absolute;
+  right: 5%;
+  width: 35%;
+  top: 25%;
+
+  animation: animateSmoke 1.5s infinite ease-in-out;
+}
+
 .climeight__home-section .climeight__home-section__title {
   flex: 0 0 auto;
   width: 100%;
@@ -55,4 +71,15 @@
 .climeight__home-section .climeight__home-section__vendor-store-holder {
   margin-top: 24px;
   max-width: 540px;
+}
+
+@keyframes animateSmoke {
+  0%,
+  100% {
+    transform: translate(-5px, -5px);
+  }
+
+  50% {
+      transform: translate(15px, 15px);
+  }
 }
