@@ -6,3 +6,4 @@
 
 export { default as HeaderSection } from './header/HeaderSection';
 export { default as HomeSection } from './home/HomeSection';
+export { default as IntroductionSection } from './introduction/IntroductionSection';

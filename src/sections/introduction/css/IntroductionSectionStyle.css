@@ -1,0 +1,15 @@
+.climeight__introduction__container {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.climeight__introduction {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 20;
+
+  background: var(--climeight-background-dark);
+}
