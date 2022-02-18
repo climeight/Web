@@ -15,6 +15,7 @@ const App = () => {
       <div>
         <HeaderSection />
         <HomeSection />
+        <HomeSection />
       </div>
     )
 }

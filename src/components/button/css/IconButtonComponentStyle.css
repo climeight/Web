@@ -1,0 +1,12 @@
+.climeight__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 67px;
+  height: 67px;
+  border-radius: 10px;
+  background: black;
+
+  margin-left: 10px;
+}

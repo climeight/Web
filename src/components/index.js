@@ -6,5 +6,7 @@
 
 export { default as InputComponent } from './input/InputComponent';
 
+export { default as IconButtonComponent } from './button/IconButtonComponent';
+
 export { default as VendorStoreComponent } from './vendor-store/VendorStoreComponent';
 export { default as VendorStoreHolderComponent } from './vendor-store/VendorStoreHolderComponent';

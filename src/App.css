@@ -29,6 +29,22 @@ p {
   margin-inline-end: 0px;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EEEEEE;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2B2B2B;
+}
+
 .climeight__container {
   width: 100%;
   flex: 0 0 auto;
