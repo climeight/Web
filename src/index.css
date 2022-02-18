@@ -19,4 +19,5 @@
 
 :root {
   --climeight-background-light: linear-gradient(180deg, #FDFEFF 0%, #F4FFFD 100%, #F4FFFD 100%);
+  --climeight-background-dark: linear-gradient(180deg, #000000 0%, #E9FFFE 76.56%, #2A4241 100%);
 }
