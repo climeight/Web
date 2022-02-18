@@ -6,19 +6,16 @@ import { ReactComponent as VectorPlayStoreLogo } from '../../assets/vendor-store
 import { ReactComponent as VectorWindowsLogo } from '../../assets/vendor-store/windows-logo.svg';
 
 const VendorStoreComponent = (props) => {
-    const TargetVendorVector = () => {
-        switch(props.vendor) {
-          case "Apple App-Store":   return <VectorAppleLogo />;
-          case "Google Play":   return <VectorPlayStoreLogo />;
-          case "Windows Store":   return <VectorWindowsLogo />;
-          default:              return <VectorAppleLogo />
-        }
-      }
-
     return (
-      
         <a className="climeight__vendor-store" href={props.endpoint}>
-             { TargetVendorVector() }
+            {(() => {
+                switch(props.vendor) {
+                    case "Apple App-Store": return <VectorAppleLogo />;
+                    case "Google Play":     return <VectorPlayStoreLogo />;
+                    case "Windows Store":   return <VectorWindowsLogo />;
+                    default:                return <VectorAppleLogo />
+                }
+            })()}
 
             <span className="climeight__vendor-store__text climeight__vendor-store__title">Bald erhältlich</span>
             <span className="climeight__vendor-store__text">{props.vendor}</span>
