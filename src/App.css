@@ -16,6 +16,15 @@ body {
   padding: 0;
 
   background: var(--climeight-background-light);
-
+  font-family: 'Gilroy';
+  
   -webkit-text-size-adjust: none;
+}
+
+.climeight__container {
+  width: 100%;
+  flex: 0 0 auto;
+  padding: 0 20px;
+  max-width: 1820px;
+  margin: 0 auto;
 }

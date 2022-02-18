@@ -8,12 +8,13 @@ import React from 'react';
 
 // stylesheets
 import './App.css'
-import { VendorStoreHolderComponent, InputComponent } from './components';
+import { HeaderSection, HomeSection } from './sections';
 
 const App = () => {
     return(
       <div>
-        <VendorStoreHolderComponent />
+        <HeaderSection />
+        <HomeSection />
       </div>
     )
 }

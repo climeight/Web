@@ -1,0 +1,44 @@
+.climeight__home-section__container {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.climeight__home-section {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 20;
+}
+
+.climeight__home-section .climeight__home-section__title {
+  flex: 0 0 auto;
+  width: 100%;
+  padding-bottom: 80px;
+  position: relative;
+  margin: auto 0;
+}
+
+.climeight__home-section .climeight__home-section__title p {
+  font-family: "Monument Extended";
+  max-width: 890px;
+  font-size: 64px;
+
+  background: linear-gradient(90deg, #2B403F 0%, #000000 24.23%, #000000 46.98%, #2F4777 71.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.climeight__home-section .climeight__home-section__description {
+  display: block;
+  font-size: 24px;
+  max-width: 890px;
+
+  padding-bottom: 95px;
+}
+
+
+.climeight__home-section .climeight__home-section__vendor-store-holder {
+  max-width: 540px;
+}
