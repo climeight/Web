@@ -1,0 +1,5 @@
+.climeight__vendor-store-holder {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 10px;
+}

@@ -8,12 +8,12 @@ import React from 'react';
 
 // stylesheets
 import './App.css'
-import { VendorStoreComponent } from './components';
+import { VendorStoreHolderComponent, InputComponent } from './components';
 
 const App = () => {
     return(
       <div>
-        <VendorStoreComponent endpoint="https://google.de" />
+        <VendorStoreHolderComponent />
       </div>
     )
 }
