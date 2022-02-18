@@ -8,12 +8,12 @@ import React from 'react';
 
 // stylesheets
 import './App.css'
-import { Input } from './components';
+import { VendorStoreComponent } from './components';
 
 const App = () => {
     return(
       <div>
-        <Input placeholder="Deine E-Mail Adresse:" />
+        <VendorStoreComponent endpoint="https://google.de" />
       </div>
     )
 }

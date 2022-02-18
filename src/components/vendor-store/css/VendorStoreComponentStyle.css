@@ -1,0 +1,23 @@
+.climeight__vendor-store {
+    position: relative;
+
+    width: 258px;
+    height: 79px;
+
+    background: linear-gradient(118.71deg, #2B403F -10.04%, #000000 31.98%, #000000 71.42%, #2F4777 114.08%);
+    border: 1px solid #C0C0C0;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+.climeight__vendor-store svg {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    margin: -14px;
+    fill: white;
+    transition: fill 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}

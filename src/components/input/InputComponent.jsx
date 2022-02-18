@@ -1,7 +1,7 @@
 import React from 'react'
-import './css/style-input.css'
+import './css/InputComponentStyle.css'
 
-const Input = (props) => {
+const InputComponent = (props) => {
     return (
         <div>
             <input className="climeight__input" placeholder={props.placeholder} />
@@ -9,4 +9,4 @@ const Input = (props) => {
     )
 }
 
-export default Input
+export default InputComponent

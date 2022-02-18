@@ -4,4 +4,5 @@
  * Author: d5chahannam
  */
 
-export { default as Input } from './input/Input';
+export { default as InputComponent } from './input/InputComponent';
+export { default as VendorStoreComponent } from './vendor-store/VendorStoreComponent';

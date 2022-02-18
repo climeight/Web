@@ -3,7 +3,13 @@
  * All rights reserved.
  * Author: d5chahannam
  */
- 
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("assets/climeight-fonts/Gilroy/Gilroy-Medium.ttf");
+  font-weight: 500;
+}
+
 :root {
   --climeight-background-light: linear-gradient(180deg, #FDFEFF 0%, #F4FFFD 100%, #F4FFFD 100%);
 }
