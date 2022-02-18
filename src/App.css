@@ -21,6 +21,14 @@ body {
   -webkit-text-size-adjust: none;
 }
 
+p {
+  display: block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 .climeight__container {
   width: 100%;
   flex: 0 0 auto;

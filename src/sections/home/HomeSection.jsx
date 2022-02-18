@@ -1,5 +1,5 @@
 import React from 'react'
-import { VendorStoreHolderComponent } from '../../components'
+import { VendorStoreHolderComponent, InputComponent } from '../../components'
 import './css/HomeSectionStyle.css'
 
 const HomeSection = () => {
@@ -11,6 +11,11 @@ const HomeSection = () => {
           <span className="climeight__home-section__description">Unsere Mission ist es eine App bis Ende 2022 zu entwickeln, die Fahrradfahrer mit
                 Punkten belohnt welche gegen Prämien eingetauscht werden können oder
                 alternativ an hilfsbedürftige Organisationen gespendet werden können.</span>
+          
+          <div className="climeight__home-section__vendor-store-holder">
+            <InputComponent placeholder="Deine E-Mail Addresse" />
+          </div>
+          
           <div className="climeight__home-section__vendor-store-holder">
             <VendorStoreHolderComponent />
           </div>
