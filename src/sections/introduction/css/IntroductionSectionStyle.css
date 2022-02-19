@@ -13,3 +13,83 @@
 
   background: var(--climeight-background-dark);
 }
+
+.climeight__introduction__effects {
+  position: absolute;
+}
+
+.climeight__introduction__effects .climeight__introduction__effects-smoke {
+  mix-blend-mode: color-burn;
+
+}
+
+.climeight__introduction__effects .climeight__introduction__effects-smoke:nth-child(1) {
+  position: absolute;
+  width: 900px;
+  height: 489px;
+  left: 1259.1px;
+  top: 545.78px;
+  transform: rotate(152.51deg);
+}
+
+.climeight__introduction__effects .climeight__introduction__effects-smoke:nth-child(2) {
+  position: absolute;
+
+  width: 900px;
+  height: 489px;
+  left: 914.34px;
+  top: 274px;
+
+  transform: rotate(17.91deg);
+}
+
+.climeight__introduction__effects .climeight__introduction__effects-smoke:nth-child(3) {
+  position: absolute;
+  width: 900px;
+  height: 489px;
+  left: -303.41px;
+  top: 293px;
+
+  transform: rotate(51.48deg);
+}
+
+.climeight__introduction__effects .climeight__introduction__effects-smoke:nth-child(4) {
+  
+  position: absolute;
+  width: 900px;
+  height: 489px;
+  left: 210.34px;
+  top: 352px;
+
+  transform: rotate(17.91deg);
+}
+
+.climeight__introduction__text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+
+.climeight__introduction__text p {
+  font-family: Monument Extended;
+  font-weight: 400;
+  font-size: 72px;
+
+  background: var(--climeight-text-light);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes animateSmoke {
+  0%,
+  100% {
+    transform: translate(-5px, -5px);
+  }
+
+  50% {
+      transform: translate(15px, 15px);
+  }
+}

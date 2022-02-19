@@ -49,10 +49,11 @@
 
 .climeight__home-section .climeight__home-section__title p {
   font-family: "Monument Extended";
+  font-weight: 500;
   max-width: 890px;
   font-size: 64px;
 
-  background: linear-gradient(90deg, #2B403F 0%, #000000 24.23%, #000000 46.98%, #2F4777 71.59%);
+  background: var(--climeight-text-dark);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
