@@ -5,9 +5,9 @@ import { ReactComponent as IconGo } from '../../assets/button/go_icon.svg';
 
 const IconButtonComponent = (props) => {
     return (
-      <div className="climeight__button">
+      <a className="climeight__button" href={props.href}>
         <IconGo />
-      </div>
+      </a>
     )
 }
 

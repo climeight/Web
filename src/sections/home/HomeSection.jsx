@@ -26,7 +26,7 @@ const HomeSection = () => {
           
           <div className="climeight__home-section__row">
             <InputComponent placeholder="Deine E-Mail Addresse" />
-            <IconButtonComponent />
+            <IconButtonComponent href="/subscribe" />
           </div>
           
           <div className="climeight__home-section__vendor-store-holder">
