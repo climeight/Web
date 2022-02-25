@@ -3,6 +3,11 @@
   width: 100%;
   flex: 1 1 auto;
   flex-direction: column;
+  z-index: 20;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  justify-content: center;
 }
 
 .climeight__about {
@@ -10,7 +15,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   z-index: 20;
 
   background: #fff;
@@ -83,4 +87,9 @@
 
 .climeight__about .climeight__about__content ul span {
   display: block;
+}
+
+.climeight__about .climeight__about__scroll-frame {
+  height: 50vh;
+  z-index: 10;
 }

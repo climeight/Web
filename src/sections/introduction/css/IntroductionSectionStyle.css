@@ -16,7 +16,7 @@
   display: block;
 }
 
-.climeight__introduction .climeight_introduction__scroll-frame {
+.climeight__introduction .climeight__introduction__scroll-frame {
   height: 50vh;
   z-index: 10;
 }
