@@ -2,8 +2,7 @@
   display: flex;
   width: 100%;
   flex: 1 1 auto;
-  justify-content: center;
-
+  flex-direction: column;
 }
 
 .climeight__about {
@@ -24,10 +23,15 @@
   align-items: center;
 }
 
-.climeight__about .climeight__about__header .climeight__about__header-subtitle {
+.climeight__about .climeight__about__title {
   font-family: "Gilroy";
   font-weight: 700;
   font-size: 72px;
+
+  background: linear-gradient(90deg, #215744 4.22%, #000000 28.65%, #000000 75.06%, #255BC4 98.02%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
@@ -44,4 +48,39 @@
   margin: -90px 0px 0 -473px;
   position: absolute;
   z-index: -1;
+}
+
+.climeight__about .climeight__about__content {
+  width: 70%;
+}
+
+.climeight__about .climeight__about__content li {
+  width: auto;
+  max-width: 100%;
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+  backface-visibility: hidden;
+  will-change: transform;
+  
+  position: relative;
+}
+
+.climeight__about .climeight__about__content ul {
+  display: flex;
+
+  margin: 80px auto 0 auto;
+
+  text-align: center;
+  
+  align-items: flex-start;
+  justify-content: center;
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px 120px;
+}
+
+.climeight__about .climeight__about__content ul span {
+  display: block;
 }

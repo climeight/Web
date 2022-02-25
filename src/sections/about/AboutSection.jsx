@@ -12,12 +12,33 @@ const AboutSection = () => {
             <VectorAboutTitleBlob className="climeight__about__header-blob" />
             
             <VectorAboutTitleText />
-            <p className="climeight__about__header-subtitle">Fahren. Sammeln. Einlösen.</p>
+            <p className="climeight__about__title">Fahren. Sammeln. Einlösen.</p>
             <p className="climeight__about__header-desc">Noch nie ist das Fahrradfahren so schön gewesen. Nutzen oder vegessen.</p>
           </div>
 
           <div className="climeight__about__content">
-            <p>test</p>
+            <ul>
+              <li>
+                    <span class="climeight__about__title">Kostenfrei</span>
+                    <p>Preis</p>
+              </li>  
+              <li>
+                    <span class="climeight__about__title">Ohne Kompromisse</span>
+                    <p>Eigenschaften</p>
+              </li>  
+              <li>
+                    <span class="climeight__about__title">Deutschland</span>
+                    <p>Hauptsitz</p>
+              </li>  
+              <li>
+                    <span class="climeight__about__title">Jung & frisch</span>
+                    <p>Gründerteam</p>
+              </li>  
+              <li>
+                    <span class="climeight__about__title">Netz Westmünsterland</span>
+                    <p>Veröffentlichungsradius</p>
+              </li>      
+           </ul>
           </div>
         </div>
       </div>
