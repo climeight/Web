@@ -1,17 +1,40 @@
 .climeight__introduction__container {
+  z-index: 20;
+  position: sticky;
+  top: 0;
+
+  overflow: hidden;
+  min-height: 100vh;
   display: flex;
-  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: center;
+
+  background: var(--climeight-background-dark);
 }
 
 .climeight__introduction {
-  min-height: 100vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  z-index: 20;
+  display: block;
+}
 
-  background: var(--climeight-background-dark);
+.climeight__introduction .climeight_introduction__scroll-frame {
+  height: 50vh;
+  z-index: 10;
+}
+.climeight__introduction .el1 {
+  margin-top: -50vh;
+}
+
+.climeight__introduction__text p:nth-child(1) {
+  transform: scale(calc(2 - var(--scroll-frame-1)));
+  opacity: var(--scroll-frame-1);
+}
+.climeight__introduction__text p:nth-child(2) {
+  transform: scale(calc(2 - var(--scroll-frame-2)));
+  opacity: var(--scroll-frame-2);
+}
+.climeight__introduction__text p:nth-child(3) {
+  transform: scale(calc(2 - var(--scroll-frame-3)));
+  opacity: var(--scroll-frame-3);
 }
 
 .climeight__introduction__effects {
@@ -79,6 +102,7 @@
   font-size: 72px;
 
   background: var(--climeight-text-light);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
