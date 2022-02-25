@@ -1,9 +1,9 @@
 import React from 'react'
 import './css/VendorStoreComponentStyle.css'
 
-import { ReactComponent as VectorAppleLogo } from '../../assets/vendor-store/apple-logo.svg';
-import { ReactComponent as VectorPlayStoreLogo } from '../../assets/vendor-store/playstore-logo.svg';
-import { ReactComponent as VectorWindowsLogo } from '../../assets/vendor-store/windows-logo.svg';
+import { ReactComponent as VectorAppleLogo } from '../../assets/components/vendor-store/apple-logo.svg';
+import { ReactComponent as VectorPlayStoreLogo } from '../../assets/components/vendor-store/playstore-logo.svg';
+import { ReactComponent as VectorWindowsLogo } from '../../assets/components/vendor-store/windows-logo.svg';
 
 const VendorStoreComponent = (props) => {
     return (
