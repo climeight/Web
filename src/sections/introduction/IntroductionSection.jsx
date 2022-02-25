@@ -4,6 +4,7 @@ import $ from 'jquery';
 import './css/IntroductionSectionStyle.css'
 
 import ImageEffectSmoke from '../../assets/effects/effect_smoke.png';
+import IntroductionSea from '../../assets/videos/introduction_sea.mp4';
 
 const IntroductionSection = (props) => {
     React.useEffect(() => {
@@ -58,6 +59,17 @@ const IntroductionSection = (props) => {
     return (
       <div className="climeight__introduction">
         <div className="climeight__introduction__container">
+          <div className="vid">
+            <video           
+          muted
+          autoPlay={"autoplay"}
+          preLoad="metadata"
+          playsInline
+          loop>
+                <source src={IntroductionSea} />
+            </video>
+          </div>
+          
           <div className="climeight__introduction__effects">
             <img className="climeight__introduction__effects-smoke" src={ImageEffectSmoke} alt="" />
             <img className="climeight__introduction__effects-smoke" src={ImageEffectSmoke} alt="" />
