@@ -106,12 +106,21 @@ const ClimateSection = (props) => {
         </div>
 
         <div class="climeight__climate-section__scroll-frame climeight__climate-section__scroll-frame-1"></div>
-        <div class="climeight__climate-section__scroll-frame climeight__climate-section__scroll-frame-2"></div>
-        <div class="climeight__climate-section__scroll-frame climeight__climate-section__scroll-frame-3"></div>
-        <div class="climeight__climate-section__scroll-frame climeight__climate-section__scroll-frame-4"></div>
-        <div class="climeight__climate-section__scroll-frame climeight__climate-section__scroll-frame-5"></div>
-        <div class="climeight__climate-section__scroll-frame climeight__climate-section__scroll-frame-6"></div>
         <div class="climeight__climate-section__scroll-frame"></div>
+
+        <div class="climeight__climate-section__scroll-frame climeight__climate-section__scroll-frame-2"></div>
+        <div class="climeight__climate-section__scroll-frame"></div>
+
+        <div class="climeight__climate-section__scroll-frame climeight__climate-section__scroll-frame-3"></div>
+        <div class="climeight__climate-section__scroll-frame"></div>
+
+        <div class="climeight__climate-section__scroll-frame climeight__climate-section__scroll-frame-4"></div>
+        <div class="climeight__climate-section__scroll-frame"></div>
+
+        <div class="climeight__climate-section__scroll-frame climeight__climate-section__scroll-frame-5"></div>
+        <div class="climeight__climate-section__scroll-frame"></div>
+        
+        <div class="climeight__climate-section__scroll-frame climeight__climate-section__scroll-frame-6"></div>
       </div>
     )
 }
