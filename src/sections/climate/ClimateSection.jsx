@@ -4,6 +4,7 @@ import $ from 'jquery';
 import './css/ClimateSectionStyle.css'
 
 import ClimateRain from '../../assets/videos/climate_rain.mp4';
+import LogoCircular from '../../assets/climeight-assets/logo/circular/climeight-circular-logo_light.png';
 
 const ClimateSection = (props) => {
     React.useEffect(() => {
@@ -100,7 +101,7 @@ const ClimateSection = (props) => {
           <div className="climeight__climate-section__content">
             <p className="climeight__climate-section__text">Weshalb Klima schädigen wenn auch schützen möglich.</p>
             <p className="climeight__climate-section__text">Schütze die Erde, denn Sie existiert nur einmalig.</p>
-            <p className="climeight__climate-section__text">Klima retten. Fahrrad fahren. climeight benutzen.</p>
+            <p className="climeight__climate-section__text"><img src={LogoCircular} alt="" /></p>
           </div>
         </div>
 
