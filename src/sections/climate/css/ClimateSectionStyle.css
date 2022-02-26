@@ -46,11 +46,11 @@
 
 .climeight__climate-section .climeight__climate-section__content p:nth-child(2) {
   filter: blur(calc(32px * var(--scroll-frame-5)));
-  opacity: var(--scroll-frame-3);
+  opacity: var(--scroll-frame-4);
 }
 
 .climeight__climate-section .climeight__climate-section__content p:nth-child(3) {
-  display: none;
+  opacity: var(--scroll-frame-6);
 }
 
 .climeight__climate-section__video {
