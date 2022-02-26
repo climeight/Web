@@ -16,12 +16,14 @@ const AboutSection = () => {
           var pos_scroll_frame_3 = ((hold.find('.climeight__about__scroll-frame-3').offset().top - $(window).scrollTop() - $(window).outerHeight()) / hold.find('.climeight__about__scroll-frame-3').outerHeight() * -1).toFixed(6);
           var pos_scroll_frame_4 = ((hold.find('.climeight__about__scroll-frame-4').offset().top - $(window).scrollTop() - $(window).outerHeight()) / hold.find('.climeight__about__scroll-frame-4').outerHeight() * -1).toFixed(6);
           var pos_scroll_frame_5 = ((hold.find('.climeight__about__scroll-frame-5').offset().top - $(window).scrollTop() - $(window).outerHeight()) / hold.find('.climeight__about__scroll-frame-5').outerHeight() * -1).toFixed(6);
+          var pos_scroll_frame_6 = ((hold.find('.climeight__about__scroll-frame-6').offset().top - $(window).scrollTop() - $(window).outerHeight()) / hold.find('.climeight__about__scroll-frame-6').outerHeight() * -1).toFixed(6);
           
           var temp_scroll_frame_1 = 0;
           var temp_scroll_frame_2 = 0;
           var temp_scroll_frame_3 = 0;
           var temp_scroll_frame_4 = 0;
           var temp_scroll_frame_5 = 0;
+          var temp_scroll_frame_6 = 0;
       
           if (pos_scroll_frame_1 < 0) {
             temp_scroll_frame_1 = 0;
@@ -61,6 +63,14 @@ const AboutSection = () => {
             temp_scroll_frame_5 = 1;
           } else {
             temp_scroll_frame_5 = pos_scroll_frame_5;
+          }                
+
+          if (pos_scroll_frame_6 < 0) {
+            temp_scroll_frame_6 = 0;
+          } else if (pos_scroll_frame_6 > 1) {
+            temp_scroll_frame_6 = 1;
+          } else {
+            temp_scroll_frame_6 = pos_scroll_frame_6;
           }
 
           hold.css({
@@ -68,7 +78,8 @@ const AboutSection = () => {
             '--scroll-frame-2': temp_scroll_frame_2,
             '--scroll-frame-3': temp_scroll_frame_3,
             '--scroll-frame-4': temp_scroll_frame_4,
-            '--scroll-frame-5': temp_scroll_frame_5
+            '--scroll-frame-5': temp_scroll_frame_5,
+            '--scroll-frame-6': temp_scroll_frame_6
           });
         });
       };
@@ -119,6 +130,7 @@ const AboutSection = () => {
 				<div class="climeight__about__scroll-frame climeight__about__scroll-frame-3"></div>
 				<div class="climeight__about__scroll-frame climeight__about__scroll-frame-4"></div>
 				<div class="climeight__about__scroll-frame climeight__about__scroll-frame-5"></div>
+				<div class="climeight__about__scroll-frame climeight__about__scroll-frame-6"></div>
       </div>
     )
 }
