@@ -59,7 +59,7 @@ const IntroductionSection = (props) => {
     return (
       <div className="climeight__introduction">
         <div className="climeight__introduction__container">
-          <div className="climeight__video">
+          <div className="climeight__introduction__video">
             <video muted autoPlay={"autoplay"} preLoad="metadata" playsInline loop>
                 <source src={IntroductionSea} />
             </video>

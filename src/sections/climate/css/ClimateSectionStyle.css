@@ -1,15 +1,59 @@
 .climeight__climate-section__container {
+  z-index: 20;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  min-height: 100vh;
   display: flex;
-  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: radial-gradient(50% 50% at 50% 50%, #333333 0%, #000000 100%);
 }
 
 .climeight__climate-section {
-  min-height: 100vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  z-index: 20;
+  display: block;
+}
 
-  background: radial-gradient(50% 50% at 50% 50%, #333333 0%, #000000 100%);
+.climeight__climate-section .climeight__climate-section__text {
+  position: absolute;
+  width: 708px;
+  text-align: center;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+
+  background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0.2) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.climeight__climate-section .climeight__climate-section__scroll-frame {
+  height: 50vh;
+  z-index: 10;
+}
+
+.climeight__climate-section .climeight__climate-section__content {
+  display: contents;
+}
+.climeight__climate-section .climeight__climate-section__content p:nth-child(1) {
+  filter: blur(calc(32px * var(--scroll-frame-3)));
+  opacity: var(--scroll-frame-1);
+}
+
+.climeight__climate-section .climeight__climate-section__content p:nth-child(2) {
+  filter: blur(calc(32px * var(--scroll-frame-5)));
+  opacity: var(--scroll-frame-3);
+}
+
+.climeight__climate-section .climeight__climate-section__content p:nth-child(3) {
+  display: none;
+}
+
+.climeight__climate-section__video {
+  mix-blend-mode: color-dodge;
+  opacity: 0.4;
 }
