@@ -1,0 +1,15 @@
+.climeight__climate-section__container {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.climeight__climate-section {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 20;
+
+  background: radial-gradient(50% 50% at 50% 50%, #333333 0%, #000000 100%);
+}
