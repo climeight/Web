@@ -80,11 +80,11 @@ const IntroductionSection = (props) => {
         </div>
 
         <div class="climeight__introduction__scroll-frame climeight__introduction__scroll-frame-1"></div>
-				<div class="climeight__introduction__scroll-frame climeight__introduction__scroll-frame-2"></div>
-				<div class="climeight__introduction__scroll-frame climeight__introduction__scroll-frame-3"></div>
+        <div class="climeight__introduction__scroll-frame climeight__introduction__scroll-frame-2"></div>
+        <div class="climeight__introduction__scroll-frame climeight__introduction__scroll-frame-3"></div>
 
         { /* To smoothize scrolling frame at the end */ }
-				<div class="climeight__introduction__scroll-frame"></div>
+        <div class="climeight__introduction__scroll-frame"></div>
       </div>
     )
 }
