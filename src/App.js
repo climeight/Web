@@ -8,7 +8,8 @@ import React from 'react';
 
 // stylesheets
 import './App.css'
-import { AboutSection, HeaderSection, HomeSection, IntroductionSection, ClimateSection } from './sections';
+import { AboutSection, HeaderSection, HomeSection, IntroductionSection, ClimateSection, 
+         ShowcaseSection } from './sections';
 
 const App = () => {
     return(
@@ -16,6 +17,7 @@ const App = () => {
         <HeaderSection />
         <HomeSection />
         <IntroductionSection />
+        <ShowcaseSection />
         <AboutSection />
         <ClimateSection />
       </div>
